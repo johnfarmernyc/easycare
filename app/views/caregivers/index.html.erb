@@ -1,0 +1,19 @@
+<h1>Listing caregivers</h1>
+
+<table class="table table striped">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @caregivers %>
+  </tbody>
+</table>
+
+<br />
+
+<%= link_to 'New Caregiver', new_caregiver_path %>

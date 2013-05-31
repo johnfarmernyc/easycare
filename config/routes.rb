@@ -1,4 +1,7 @@
 Easycare::Application.routes.draw do
+  resources :caregivers
+
+
   devise_for :users
 
     root :to => 'pages#home'
